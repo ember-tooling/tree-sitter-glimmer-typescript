@@ -1,8 +1,3 @@
-/***********************************
- *
- * from tree-sitter-typescript v0.23.0
- *
- * ***********************************/
 #include "tree_sitter/parser.h"
 
 #include <wctype.h>
