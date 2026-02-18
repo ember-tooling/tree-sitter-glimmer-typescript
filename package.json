@@ -25,7 +25,7 @@
     "build": "tree-sitter generate --no-bindings",
     "build:local": "tree-sitter build -o parser/glimmer_typescript.so",
     "install": "node-gyp-build",
-    "lint": "eslint common/define-grammar.js",
+    "lint": "eslint src/tree-sitter-typescript/define-grammar.js",
     "parse": "tree-sitter parse",
     "prebuildify": "prebuildify --napi --strip",
     "test": "tree-sitter test"
